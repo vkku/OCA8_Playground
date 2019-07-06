@@ -1,4 +1,5 @@
 package me.vkku.oca8;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -15,7 +16,6 @@ public class ConsoleRun extends ConsoleOreoRun implements Console3000Run {
     int ₹just_a_long_identifier;
     int _____another_weird_$_identifier;
     final ConsoleDoubleRun consoleDoubleRun = new ConsoleDoubleRun();
-    // final Console3000Run console3000Run = new Console3000Run() {};
 
     ₹just_a_long_identifier = 10;
     _____another_weird_$_identifier = 50;
