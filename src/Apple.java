@@ -6,8 +6,10 @@ public class Apple extends Fruit {
 
   public static void main(String... args) {
     Apple apple = new Apple();
+    Float actualLifeExpectancy = (float) 80;
     apple.setLifeFactor(0.02);
-    System.out.println(apple.lifeExpectancyIncreasePercentage((float) 75.0));
+    System.out.println("Congrats ! Your age stretched from " + actualLifeExpectancy + " to "
+        + apple.lifeExpectancyIncreasePercentage(actualLifeExpectancy));
   }
 
   @Override
