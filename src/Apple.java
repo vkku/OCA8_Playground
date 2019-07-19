@@ -1,6 +1,5 @@
 import me.vkku.fruit.Fruit;
 
-
 public class Apple extends Fruit {
   private Boolean tastesLikeAnything = false; // Tastes like "apple"
 
